@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #778899;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: #B0C4DE;
+    padding: 1rem;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+h1 {
+    font-family:cursive;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0C4DE;
+    margin-top: 20vh;
+    border-radius: 3rem;
+    padding: 1rem 4rem 4rem 4rem;
+    
+}
+
+.miniContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#money_value_display {
+    margin-top: 1rem;
+}
