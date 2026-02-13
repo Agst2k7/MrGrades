@@ -14,7 +14,7 @@ const average_10 = params.get("average_10");
 
 console.log(average_10, average_9, average_8, average_7, average_6, less_than_6)
 
-document.getElementById("grades_mean").textContent = grades_mean;
+document.getElementById("grades_mean").textContent = grades_mean.toFixed(2);
 document.getElementById("grades_mean_10").textContent = grades_mean_10.toFixed(2);
 
 document.getElementById("money_value").textContent = money_value;
@@ -27,5 +27,6 @@ document.getElementById("average_7").textContent = average_7;
 document.getElementById("average_8").textContent = average_8;
 document.getElementById("average_9").textContent = average_9;
 document.getElementById("average_10").textContent = average_10;
+
 
 
